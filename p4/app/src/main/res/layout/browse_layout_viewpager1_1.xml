@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Browse">
+
+        <com.jude.rollviewpager.RollPagerView
+            android:id="@+id/browse_layout_view_pager1_1_rollviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:rollviewpager_play_delay="3000"/>
+    </LinearLayout> <!--滚动显示-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/browse_layout_view_pager1_1_textView"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/browse_layout_view_pager1_1_textView1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/color3"/>
+</LinearLayout>
